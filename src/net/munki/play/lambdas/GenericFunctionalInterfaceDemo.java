@@ -7,7 +7,7 @@ interface SomeFunc<T> {
 public class GenericFunctionalInterfaceDemo {
 
     public static void main(String[] args) {
-        // TODO Auto-generated method stub
+        
         SomeFunc<String> reverse = (str) -> {
             String result = "";
             int i;
