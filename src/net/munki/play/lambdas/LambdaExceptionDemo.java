@@ -26,6 +26,7 @@ class LambdaExceptionDemo {
             return sum / n.length;
         };
         System.out.println("The average is " + average.func(values));
+        // This line causes an exception because the array is empty.
         System.out.println("The average is " + average.func(new double[0]));
     }
 }
