@@ -1,12 +1,12 @@
 package net.munki.play.lambdas;
 
-interface StringFunc {
+interface StringFunc2 {
     String func(String n);
 }
 
 class LambdasAsArgumentsDemo {
     
-    static String stringOp(StringFunc sf, String s) {
+    static String stringOp(StringFunc2 sf, String s) {
         return sf.func(s);
     }
 
@@ -31,7 +31,7 @@ class LambdasAsArgumentsDemo {
         }, inStr);
         System.out.println("Spaces removed: " + outStr);
 
-        StringFunc reverse = (str) -> {
+        StringFunc2 reverse = (str) -> {
             String result = "";
             int i;
             for (i = str.length()-1; i >= 0; i--)
