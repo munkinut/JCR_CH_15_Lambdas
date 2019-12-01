@@ -1,5 +1,7 @@
 package net.munki.play.lambdas;
 
+// This cant be called StringFunc because StringFunc is 
+// already defined in another file in this package.
 interface StringFunc2 {
     String func(String n);
 }
